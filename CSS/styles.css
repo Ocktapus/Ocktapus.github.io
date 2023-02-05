@@ -28,9 +28,14 @@ body {
 }
 .paragraph-Grid{
   display: flex;
-  align-items:flex-start;
+  align-items:center;
   align-content:space-between;
   grid-template-columns: auto auto;
+  margin-top: 5px;
+  padding: 7px;
+}
+.paragraph-Item{
+  width: 50%;
 }
 .headerspan{
   width: 30%;
@@ -56,6 +61,10 @@ body {
   color: #DEDEDE;
   padding: 0%;
 }
+li{
+  list-style-type: none;
+  margin-top: 20px;
+}
 
 h1 {
   color: #DEDEDE;
@@ -76,6 +85,19 @@ h2 {
   margin: 0%;
   padding: 5px;
   margin: 10px 30px 0px 30px;
+}
+h3{
+  color: #DEDEDE;
+  font-family: "Urbanist", sans-serif;
+  text-align: left;
+  font-weight: 600;
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color:#3d3d3d;
+  text-decoration-thickness: 10px;
+
+  /* margin: 10px 10px 0px 10px; */
+
 }
 .title{
   color: #DEDEDE;
@@ -143,6 +165,10 @@ dd{
   font-size: 15px;
   margin-left: 5px;
 }
+.misc-Icon{
+  font-size:xx-large;
+  color: #DEDEDE;
+}
 
 .fa-envelope-square{
   color: #DEDEDE;
@@ -163,6 +189,13 @@ dd{
   .header-Grid {
     flex-direction: column;
     align-items: center;
+  }
+  .paragraph-Grid{
+    flex-direction:column-reverse;
+    width: 100%;
+  }
+  .paragraph-Item{
+    width: 100%;
   }
   .title{
     width: auto;
