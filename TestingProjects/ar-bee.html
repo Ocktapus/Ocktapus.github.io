@@ -32,7 +32,10 @@
                 <i class="fa fa-camera"></i>
             </button>
           </model-viewer>
-    
+          <script>
+            const modelViewerTransform = document.querySelector("model-viewer#transform");
+            modelViewerTransform.scale = `${0.1} ${0.1} ${0.1}`;
+          </script>
     </div>
 </body>
 </html>
