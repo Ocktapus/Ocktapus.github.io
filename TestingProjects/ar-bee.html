@@ -18,7 +18,12 @@
 
 </head>
 <body>
+  <button onclick="window.location.href='https://www.maddierussell.co.uk/';"
+  style="background-color: rgb(223, 223, 223); border-radius: 10px; border: none; display: block; margin-left: auto; margin-right: auto; margin-top: 20px;
+  font-family:Urbanist, sans-serif; font-weight: 600; font-size: 20px;">
+  My Website </button>
     <div id="card" style="display: flex;">
+      
         <model-viewer id="transform" scale="${0.1} ${0.1} ${0.1}" autoplay ar ar-scale="fixed" camera-controls touch-action="pan-y" 
         src="..\Models\Arbee4.gltf" 
         alt="A 3D model of Arbee"
@@ -32,6 +37,7 @@
                 <i class="fa fa-camera"></i>
             </button>
           </model-viewer>
+          
           <script>
             const modelViewerTransform = document.querySelector("model-viewer#transform");
             modelViewerTransform.scale = `${0.1} ${0.1} ${0.1}`;
