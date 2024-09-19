@@ -29,8 +29,8 @@ twitter_username:
 github_username:  
 
 # Build settings
-# theme: minima
-remote_theme: moonwalk
+theme: minima
+# theme: moonwalk
 plugins:
   - jekyll-feed
 
