@@ -1,0 +1,98 @@
+:root{
+    --containerblack: #131313;
+    --backgrey: #202021;
+    --ghostwhite: #f7f7ff;
+    --textwhite: #DEDEDE;
+    --engineeringorange: #c03221;
+    --orange: #ff8d00;
+    --orangelight: #ffc47c;
+    --bluerobin: #52d1dc;
+    --azul: #296eb4;
+  }
+  html{
+    height: 100%;
+  }
+  body {
+    background-color: var(--engineeringorange);
+    height: 100%;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .container{
+    background-color: var(--containerblack);
+    padding: 10px 5%;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .divider{
+    border: 2px solid var(--engineeringorange);
+    border-radius: 2px;
+    width: auto;
+    opacity: 1;
+  }
+  h1 {
+    color: var(--textwhite);
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0%;
+    padding: 5px;
+  }
+  .title{
+    font-weight: 900;
+    letter-spacing: 15px;
+    text-align: left;
+    margin: 0% 12px;
+    padding: 0px;
+    align-self: center;
+  }
+  .ockta{
+    max-width: 100px;
+    text-align: center;
+  }
+  p{
+    color: var(--textwhite);
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+  }
+  dl{
+    margin-bottom: 5px;
+    padding-right: 5px;
+  }
+  dt{
+    color: var(--textwhite);
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration-color:var(--textwhite);
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
+    margin: 8px 0px 5px 0px;
+    padding: 1px 5px 1px 5px;
+    background-color: #c03221;
+    border-radius: 5px;
+    text-align: left;
+  }
+  dd{
+    color: var(--textwhite);
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: auto;
+    margin-left: 30px;
+    text-align: left;
+    display: list-item;
+    list-style-type: disc;
+  }
+  .dd-no-dot{
+    list-style-type: none;
+    margin-left: 0px;
+  }
+  .icons{
+    color: var(--textwhite);
+    text-align: left;
+  }
