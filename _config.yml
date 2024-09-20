@@ -30,7 +30,7 @@ github_username:
 
 # Build settings
 # theme: minima
-theme: "abhinavs/moonwalk"
+remote_theme: "abhinavs/moonwalk"
 plugins:
   - jekyll-feed
 
